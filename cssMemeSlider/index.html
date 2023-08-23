@@ -8,5 +8,52 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="header__title">CSS Meme Slider</h1>
+      </header>
+      <main class="main">
+        <div class="slider">
+          <input type="radio" name="slider" id="meme1" checked>
+          <input type="radio" name="slider" id="meme2">
+          <input type="radio" name="slider" id="meme3">
+          <input type="radio" name="slider" id="meme4">
+          <input type="radio" name="slider" id="meme5">
+          <div class="slider__images">
+            <img src="./assets/img/meme1.png" alt="meme1" class="slider-img">
+            <img src="./assets/img/meme2.png" alt="meme2" class="slider-img">
+            <img src="./assets/img/meme3.png" alt="meme3" class="slider-img">
+            <img src="./assets/img/meme4.png" alt="meme4" class="slider-img">
+            <img src="./assets/img/meme5.png" alt="meme4" class="slider-img">
+          </div>
+          <div class="slider__controls">
+            <div class="slider__controls-descriptions">
+              <div class="slider__desc meme1-desc">Life's good</div>
+              <div class="slider__desc meme2-desc">What's up?</div>
+              <div class="slider__desc meme3-desc">Just relax</div>
+              <div class="slider__desc meme4-desc">Deadline is coming</div>
+              <div class="slider__desc meme5-desc">I did it</div>
+            </div>
+            <div class="slider__controls-labels">
+              <label for="meme1" class="slider__label label1">
+                <span class="slider__label-circle"></span>
+              </label>
+              <label for="meme2" class="slider__label label2">
+                <span class="slider__label-circle"></span>
+              </label>
+              <label for="meme3" class="slider__label label3">
+                <span class="slider__label-circle"></span>
+              </label>
+              <label for="meme4" class="slider__label label4">
+                <span class="slider__label-circle"></span>
+              </label>
+              <label for="meme5" class="slider__label label5">
+                <span class="slider__label-circle"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
