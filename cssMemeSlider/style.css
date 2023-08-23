@@ -141,3 +141,46 @@ input[type="radio"] {
     border: 3px solid crimson;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    font-size: 1.5em;
+  }
+
+  .slider__controls {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .slider__controls-labels {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__title {
+    font-size: 1.7rem;
+  }
+
+  .slider__controls-descriptions {
+    height: 2.5rem;
+  }
+
+  .slider__desc {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header__title {
+    font-size: 1.4rem;
+  }
+
+  .slider__controls-descriptions {
+    height: 2rem;
+  }
+
+  .slider__desc {
+    font-size: 1.2em;
+  }
+}
